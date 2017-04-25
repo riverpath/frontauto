@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#u1 {
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    font-size: 13px;
+}
+
+#u1 a {
+    margin-left: 0.5em;
+    float: left;
+    color: #F5B445;
+}
+
+.mnav {
+    font-weight: 700;
+    -webkit-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+}
+
+.lb,
+.pf,
+.mnav {
+    text-decoration: underline;
+}
+
+.bri {
+    background-color: #38f;
+    color: white;
+}
+
+#main {
+    clear: left;
+}
+
+#main .search img {
+    display: block;
+    margin: 0 auto;
+    width: 270px;
+}
+
+#main .kw {
+    margin-top: 50px;
+}
+
+#main .kw #keyword {
+    position: relative;
+    height: 40px;
+    width: 540px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+#main .kw #su {
+    width: 100px;
+    height: 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #38f;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    vertical-align: middle;
+}
+
+#main form {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#main form .keyword {
+    position: relative;
+}
+
+#main .photo {
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    background: #fff url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/soutu/img/camera_new_5606e8f.png) no-repeat;
+    display: inline-block;
+    right: 10px;
+    margin: 12px 0px;
+}
+
+#main input {
+    float: left;
+}

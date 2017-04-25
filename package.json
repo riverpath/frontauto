@@ -1,0 +1,30 @@
+{
+  "name": "frontauto",
+  "version": "1.0.0",
+  "description": "把less转化成css",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riverpath/frontauto.git"
+  },
+  "author": "walker",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "cssbeautify": "^0.3.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-less": "^3.3.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-util": "^3.0.8",
+    "log-symbols": "^1.0.2",
+    "map-stream": "0.0.7",
+    "minimatch": "^3.0.3"
+  }
+}
